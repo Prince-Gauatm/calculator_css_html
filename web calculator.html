@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>
+calculator
+</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+       
+<h1> Welcome to my first Calculator</h1>
+
+<div class="main-div">               <!-- main div -->
+
+<form name="button">
+<div class="clsi-div">
+<div class="input-box">
+<input class="box" type="text" name="answerbox">
+</div>
+<div class="btn-container">
+    <div class="btn-div">
+    <input class="btncolor btn-size" type="button"  value="C" style="color: green;"onclick="button.answerbox.value ='' " >
+    <input  class="btncolor btn-size" type="button"  value="%" style="color: green;"onclick="button.answerbox.value += '%' ">
+    <input  class="btncolor btn-size" type="button"  value="*" style="color: green;"onclick="button.answerbox.value += '*' ">
+    <input class="btncolor btn-size"  type="button" style="color: green;"  value="/" onclick="button.answerbox.value += '/' ">
+</div>
+<div class="btn-div">
+    <input  class="btncolor btn-size" type="button" value="8"  onclick="button.answerbox.value += '8' ">
+    <input  class="btncolor btn-size" type="button" value="7" onclick="button.answerbox.value += '7' ">
+    <input  class="btncolor btn-size"  type="button" value="9" onclick="button.answerbox.value += '9' ">
+    <input  class="btncolor btn-size"  type="button" style="color: green;"value="+" onclick="button.answerbox.value += '+' ">
+</div>
+<div class="btn-div">
+    <input   class="btncolor btn-size" type="button" value="4" onclick="button.answerbox.value += '4' ">
+    <input   class="btncolor btn-size" type="button" value="5" onclick="button.answerbox.value += '5' ">
+    <input  class="btncolor btn-size"  type="button" value="6" onclick="button.answerbox.value += '6' ">
+    <input   class="btncolor btn-size" type="button" value="-" style="color: green;" onclick="button.answerbox.value += '-' ">
+</div>
+<div class="btn-div">
+    <input  class="btncolor btn-size"  type="button" value="1" onclick="button.answerbox.value += '1' ">
+    <input   class="btncolor btn-size" type="button" value="2" onclick="button.answerbox.value += '2' ">
+    <input  class="btncolor btn-size"  type="button" value="3" onclick="button.answerbox.value += '3' ">
+    <input  class="btncolor yellow-btn"  type="button" value="=" onclick="button.answerbox.value = eval(button.answerbox.value)">
+</div>
+<div class="btn-div">
+    <input   class="btncolor btn-size" type="button" value="0" onclick="button.answerbox.value += '0' ">
+    <input   class="btncolor btn-size" type="button" value="00" onclick="button.answerbox.value += '00' ">
+    <input  class="btncolor btn-size"  type="button" value="." onclick="button.answerbox.value += '.' ">
+    <input   class="btncolor btn-size" type="button" value="000" onclick="button.answerbox.value+='000' ">
+</div>
+</div>
+
+</div>
+</form>   
+
+ 
+
+</div> <!-- main div -->
+
+
+
+</body>
+</html>
